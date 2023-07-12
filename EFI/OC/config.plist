@@ -275,30 +275,30 @@
 				<integer>13</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-                <dict>
-                    <key>AAPL,GfxYTile</key>
-                    <data>AQAAAA==</data>
-                    <key>AAPL,ig-platform-id</key>
-                    <data>AQBcig==</data>
-                    <key>device-id</key>
-                    <data>XIoAAA==</data>
-                    <key>enable-cdclk-frequency-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-cfl-backlight-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-dvmt-calc-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAwA==</data>
-                    <key>model</key>
-                    <string>Intel(R) UHD Graphics G1</string>
-                </dict>
+			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>AQAAAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>AQBcig==</data>
+				<key>device-id</key>
+				<data>XIoAAA==</data>
+				<key>enable-cdclk-frequency-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-cfl-backlight-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-dvmt-calc-fix</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAwA==</data>
+				<key>model</key>
+				<string>Intel(R) UHD Graphics G1</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -1031,7 +1031,7 @@
 			<key>AppleCpuPmCfgLock</key>
 			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -1063,9 +1063,9 @@
 			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
-			<false/>
+			<true/>
 			<key>PowerTimeoutKernelPanic</key>
-			<false/>
+			<true/>
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
