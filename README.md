@@ -1,6 +1,8 @@
 # EFI
 Laptop Acer Aspire 3 A315 56
 
+Using MacOS Monterey 12.7.5
+
 | Processor    | Intel Core i5-1035G1 (Ice Lake)                      |
 | ------------ | ---------------------------------------------------- |
 | iGPU         | Intel UHD Graphics G1 (Device-ID: 0x8A56)            |
